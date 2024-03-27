@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/534b5ba9e7.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Weadpi</title>
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inside-box">
+          <div class="search-btn">
+            <input type="text" placeholder="enter city name" id="userInput" />
+            <button id="btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+
+          <div class="weatherImage">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1779/1779940.png"
+              alt=""
+              id="weatherImg"
+            />
+
+            <h1 id="temperature">22°C</h1>
+            <h2 class="city">Siliguri</h2>
+          </div>
+
+          <div class="weatherStats">
+            <div class="statsLeft">
+              <div class="leftImage">
+                <img
+                  src="https://static-00.iconduck.com/assets.00/humidity-icon-512x419-5m7ztixz.png"
+                  alt=""
+                />
+              </div>
+              <div class="humidity">
+                <h4 class="statsHeader" id="humidityCount">30%</h4>
+                <p>Humidity</p>
+              </div>
+            </div>
+            <div class="statsRight">
+              <div class="rightImage">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/172/172922.png"
+                  alt=""
+                />
+              </div>
+              <div class="wind">
+                <h4 class="statsHeader" id="windCount">12 km/h</h4>
+                <p>Wind Speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
